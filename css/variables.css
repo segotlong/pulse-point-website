@@ -1,0 +1,35 @@
+:root{
+
+    /* Brand Colors */
+
+    --primary:#0F2D52;
+    --secondary:#F28C28;
+
+    /* Neutral Colors */
+
+    --white:#ffffff;
+    --light:#F8FAFC;
+    --gray:#64748B;
+    --dark:#1E293B;
+
+    /* Borders */
+
+    --border:#E2E8F0;
+
+    /* Shadows */
+
+    --shadow:0 12px 30px rgba(0,0,0,.08);
+
+    /* Radius */
+
+    --radius:16px;
+
+    /* Transition */
+
+    --transition:.35s ease;
+
+    /* Container */
+
+    --container:1200px;
+
+}
