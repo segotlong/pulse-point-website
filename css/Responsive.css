@@ -200,3 +200,172 @@
     }
 
 }
+
+/* =====================================
+   MOBILE FIXES
+===================================== */
+
+@media (max-width: 768px) {
+
+    /* GENERAL */
+    body {
+        overflow-x: hidden;
+    }
+
+    .container {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+    /* NAVBAR */
+    .nav-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px 20px;
+    }
+
+    .logo img {
+        width: 120px;
+        height: auto;
+    }
+
+    .menu-toggle {
+        display: block;
+        font-size: 30px;
+        margin: 0;
+    }
+
+
+    /* HERO */
+    .hero {
+        padding: 70px 0;
+    }
+
+    .hero-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .hero-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 2.7rem;
+        line-height: 1.1;
+        word-break: normal;
+    }
+
+    .hero-description {
+        font-size: 1rem;
+        line-height: 1.7;
+    }
+
+    .hero-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .hero-buttons a {
+        width: 100%;
+        max-width: 280px;
+        text-align: center;
+    }
+
+    .hero-image {
+        width: 100%;
+    }
+
+    .hero-image img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    /* SERVICES */
+    .services-container {
+        grid-template-columns: 1fr;
+    }
+
+
+    /* PROCESS */
+    .process-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .process-card {
+        width: 100%;
+        padding: 30px 25px;
+    }
+
+    .process-card p {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+
+    /* WHY CHOOSE US */
+    .why-container {
+        grid-template-columns: 1fr;
+    }
+
+
+    /* ABOUT */
+    .about-container {
+        grid-template-columns: 1fr;
+    }
+
+
+    /* CONTACT */
+    .contact-container {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        width: 100%;
+    }
+
+
+    /* SECTION HEADINGS */
+    .section-header h2,
+    .about-content h2 {
+        font-size: 2rem;
+    }
+
+}
+
+
+/* =====================================
+   SMALL PHONES
+===================================== */
+
+@media (max-width: 480px) {
+
+    .hero h1 {
+        font-size: 2.2rem;
+    }
+
+    .hero-description {
+        font-size: 0.95rem;
+    }
+
+    .logo img {
+        width: 100px;
+    }
+
+    .section-header h2,
+    .about-content h2 {
+        font-size: 1.8rem;
+    }
+
+}
