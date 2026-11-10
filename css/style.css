@@ -1,0 +1,63 @@
+
+@import url("variables.css");
+@import url("reset.css");
+@import url("navbar.css");
+@import url("hero.css");
+@import url("Responsive.css");
+@import url("about.css");
+@import url("services.css");
+@import url("process.css"); 
+@import url("Contact.css");
+@import url("why.css");
+@import url("footer.css");
+@import url("services.css");
+
+/* =========================
+   FOOTER LOGO
+========================= */
+
+.footer-logo {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin-bottom: 15px;
+}
+
+
+/* =========================
+   PULSE POINT BRAND THEME
+   Navy, orange, white and soft grey
+========================= */
+body { background: var(--white); color: var(--gray); }
+.header { background: rgba(255,255,255,.97); border-bottom: 1px solid var(--border); box-shadow: 0 4px 18px rgba(13,44,75,.05); }
+.logo { display: block; flex: 0 0 auto; line-height: 0; }
+.logo img { display: block; width: 155px; max-height: 82px; height: auto; object-fit: contain; }
+.nav-menu a { color: var(--primary); font-weight: 600; transition: color .2s ease; }
+.nav-menu a:hover { color: var(--secondary); }
+.nav-menu .nav-button, .btn-primary, .contact-form button { background: var(--secondary); color: #fff; border: 2px solid var(--secondary); border-radius: 10px; padding: 14px 25px; font-weight: 700; display: inline-block; transition: .25s ease; }
+.nav-menu .nav-button:hover, .btn-primary:hover, .contact-form button:hover { background: #E96F0B; border-color: #E96F0B; color: #fff; transform: translateY(-2px); }
+.btn-secondary { border: 2px solid var(--primary); color: var(--primary); border-radius: 10px; }
+.btn-secondary:hover { background: var(--primary); color: #fff; }
+.hero { background: var(--white); padding-top: 155px; }
+.hero-container { grid-template-columns: minmax(0, 1fr); max-width: 900px; }
+.hero-content { max-width: 850px; }
+.hero-tag, .section-tag { background: #FFF1E5; color: #D96508; border-radius: 6px; }
+.hero h1, h1, h2, h3, h4 { color: var(--primary); }
+.hero p, .section-header p, .about-content p, .service-card p, .why-card p { color: var(--gray); }
+.feature { background: var(--light); color: var(--primary); box-shadow: none; border: 1px solid var(--border); border-radius: 10px; }
+.services, .why-us, .contact { background: var(--light); }
+.about, .service-detail { background: var(--white); }
+.service-card, .why-card, .process-card { background: #fff; border: 1px solid var(--border); box-shadow: 0 10px 26px rgba(13,44,75,.06); border-radius: 16px; }
+.service-icon { background: #FFF1E5; }
+.service-link, .about-feature { color: var(--primary); }
+.service-link:hover, .footer a:hover { color: var(--secondary); }
+.section-tag { display: inline-block; padding: 8px 16px; font-size: .85rem; font-weight: 700; letter-spacing: 1.5px; }
+.process { background: var(--white); }
+.step-number { background: var(--primary); color: #fff; }
+.contact-form input, .contact-form textarea { background: #fff; border: 1px solid var(--border); color: var(--primary); }
+.contact-form input:focus, .contact-form textarea:focus { border-color: var(--secondary); box-shadow: 0 0 0 3px rgba(255,130,28,.12); }
+.footer { background: var(--primary); color: #fff; }
+.footer h2, .footer h3 { color: #fff; }
+.footer-bottom { border-color: rgba(255,255,255,.2); }
+.menu-toggle { color: var(--primary); background: transparent; border: 0; cursor: pointer; }
+@media (max-width: 768px) { .hero { padding: 115px 0 65px; } .hero-container { grid-template-columns: 1fr; } .logo img { width: 120px; max-height: 65px; } }
